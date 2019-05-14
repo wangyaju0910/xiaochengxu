@@ -1,0 +1,31 @@
+<view class='username'>
+  <view class='username-user'>范范SOSO</view>
+  <view class='fangzhu'>房主</view>
+</view>
+<view class='detail-shop'>
+  <view class='detail-content'>
+    <p>石之美为玉 玉之美在石韵【保证金】石之美为玉 玉之美在石韵【保证金】</p>
+    <view class="introduce clearfix">
+        <view>【品种】白玉</view>
+        <view>【产地】云南</view>
+        <view>【颜色】白色</view>
+        <view>【题材】佛教</view>
+        <view>【瑕疵】无</view>
+        <view>【成品重量】4.5kg</view>
+    </view>
+    <view class='text'>
+      本工作室所有产品图片为P图，照片基本与实物接近。产品均为细工打造
+    </view>
+    <view class='text'>
+      所有产品寄出时，都会配有国家证书，大家放心购买
+    </view>
+  </view>
+</view>
+<view class='footer'>
+  <view>
+    <textarea></textarea>
+  </view>
+  <view>
+    
+  </view>
+</view>
