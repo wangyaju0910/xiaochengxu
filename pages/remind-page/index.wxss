@@ -6,14 +6,14 @@
 }
 .now-auction{
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   left: 0;
   color:#fff;
   width: 100%;
   text-align: center;
   font-size: 14px;
   padding: 10px 0;
-  background-color: rgba(0,0,0,.5)
+  background-color: rgba(0,0,0,.5);
 }
 .now-auction view:nth-child(1){
   float: left;
@@ -24,39 +24,30 @@
   float: right;
   width: 50%;
 }
-.remind-list{
-  background-color: #f5f5f5;
-  margin-top: 5px;
-  padding: 5px 0;
-}
 .remind-list .list{
-  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 .remind-list .list-img{
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin-left: 10px;
-  margin-top: 5px;
-  padding: 5px 0;
+  flex: 1;
+  margin-left: 5px;
 }
-.list-img image{
+.remind-list .list-img image{
   width: 100%;
   height: 100%;
 }
-.list-content{
-  float: right;
-  padding: 10px 0;
-  font-size: 14px;
+.remind-list .list-content{
+  flex: 2;
+  margin: 5px;
+  font-size: 12px;
 }
 .list-content .list-user{
   color:#999;
   margin: 5px 0;
 }
+
 .list-content .list-money{
   display: inline-block;
-  color:#dd6667;
-}
-.list-content .list-time{
-  color:#dd6667;
+  color:red;
+  margin: 5px 0;
 }

@@ -9,12 +9,13 @@
     <view class='data'>2019/04/26</view>
   </view>
   <view class='user'>
-    <image src='../../images/微信图片_20190515090842.jpg'></image>
+    <view class='user-img'>
+       <image src='../../images/微信图片_20190515090842.jpg'></image>
+    </view>
     <view class='user-name'>添龙斋</view>
   </view>
 </view>
 <view class='advance-shop'>
-  <!-- img -->
   <view class='advance-img'>
     <image src='../../images/微信图片_20190515090842.jpg'></image>
     <view class='proceed'>
