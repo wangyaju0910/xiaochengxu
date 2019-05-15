@@ -1,0 +1,115 @@
+.myOrder-nav{
+  display: flex;
+  font-size: 14px;
+  border-top:1px solid #aaa;
+  color:#8c8c8c;
+}
+.myOrder-nav view{
+  flex: 1;
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+.myOrder-nav view:hover{
+  color:#d62727;
+  border-bottom: 3px solid #d62727;
+}
+.myOrder-nav .wait-pay::after{
+  content:"1";
+  width: 10px;
+  height:10px;
+  font-size: 8px;
+  background-color:#d62727;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top:10px;
+  left: 133px;
+  color:#fff;
+
+}
+.myOrder-list{
+  background-color:#f5f5f5;
+  padding: 5px 0;
+}
+.myOrder-list .list-nav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.myOrder-list .wait-payment{
+  color:#d62727;
+}
+.list-detail{
+  font-size: 14px;
+  background-color: #fff;
+  display: flex;
+  padding-bottom: 10px;
+}
+.list-detail .detail-img{
+  width: 100px;
+  height: 100px;
+  flex: 1;
+  margin-left: 20px;
+}
+.detail-img image{
+  width: 100%;
+  height: 100%;
+}
+.detail-introduce{
+  flex: 2;
+  margin-left: 10px;
+}
+.detail-introduce .introduce-money{
+  color:#d62727;
+  margin-top: 40px;
+}
+.introduce-money .num{
+  float: right;
+  margin-right: 20px;
+}
+.detail-introduce .introduce-money .number{
+  font-size: 18px;
+  display: inline-block;
+}
+.myOrder-list .aggregate{
+  border-top:1px solid rgba(153, 153, 153, 0.089);
+  border-bottom:1px solid rgba(153, 153, 153, 0.089);
+  background-color: #fff;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.aggregate .aggregate-money{
+  display: inline-block;
+}
+.aggregate .aggregate-all{
+  float: right;
+  margin-right: 20px;
+}
+.myOrder-list .pay{
+  width: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.myOrder-list .residue{
+  float: left;
+  margin-left: 10px;
+}
+.myOrder-list .go-pay{
+  float: right;
+  margin-right: 10px;
+  background-color: #d62727;
+  color:#fff;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}

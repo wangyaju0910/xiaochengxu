@@ -1,7 +1,15 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/details-page/index"
+    "pages/details-page/index",
+    "pages/remind-page/index",
+    "pages/circle-page/index",
+    "pages/my/index",
+    "pages/comment-page/index",
+    "pages/my-orders/index",
+    "pages/payment-page/index",
+    "pages/confirm-page/index",
+    "pages/evaluate-page/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -9,5 +17,23 @@
     "navigationBarTitleText": "绮年拍卖",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/circle-page/index",
+        "text": "圈子"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ]
+  }
 }

@@ -1,0 +1,39 @@
+<view class='take-address clearfix'>
+  <view class='user-address'>
+    <view>收货人：范范SOSO
+      <view class='tel'>12345678910</view>
+    </view>
+    <view>收货地址：广州天河区车陂街道联合社区2栋</view>
+  </view>
+  <view class='go-address'>></view>
+</view>
+<view class='myOrder-list'>
+  <view class='list-nav'>
+    <view>范范古玩店</view>
+  </view>
+  <view class='list-detail'>
+    <view class='detail-img'>
+      <image src='../../images/微信图片_20190515090842.jpg'></image>
+    </view>
+    <view class='detail-introduce'>
+      <view>石之美为玉 玉之美在石韵石之美【保证金】石之美为玉 玉之美在石韵</view>
+      <view class='introduce-money'>￥
+        <view class='number'>288</view>
+        <view class='add-num clearfix'>
+          <view class='num'>-</view>
+          <view class='num'>1</view>
+          <view class='num'>+</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='leave-message'>
+  <textarea class='user-message'>给房主留言：</textarea>
+</view>
+<view class='submit-order'>
+  <view class='deal-with'>应付：
+    <view class='money'>￥288</view>
+  </view>
+  <view class='submit'>提交订单</view>
+</view> 

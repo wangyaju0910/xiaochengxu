@@ -1,10 +1,19 @@
-<view class='username'>
-  <view class='username-img'>
-    <image src='../../images/微信图片_20190515090842.jpg'></image>
+<view class='username clearfix'>
+  <view class='name-user'>
+    <view class='username-img'>
+      <image src='../../images/微信图片_20190515090842.jpg'></image>
+    </view>
+    <view class='username-user'>范范SOSO</view>
+    <view class='fangzhu'>领先</view>
   </view>
-  <view class='username-user'>范范SOSO</view>
-  <view class='fangzhu'>房主</view>
+  <view class='now-money'>
+    <view>当前价：最低+100</view>
+    <view class='bottom-money'>800</view>
+  </view>
 </view>
+<navigator class='check-shop'>
+  <view class='checked'>  查看其它拍品 ></view>
+</navigator>
 <view class='detail-shop'>
   <view class='detail-img'>
     <image src='../../images/微信图片_20190515090842.jpg'></image>
@@ -22,15 +31,10 @@
     <view class='text'>
       本工作室所有产品图片为P图，照片基本与实物接近。产品均为细工打造
     </view>
-    <view class='text'>
-      所有产品寄出时，都会配有国家证书，大家放心购买
     </view>
-  </view>
 </view>
-<view class='img-show'>
-   <image src='../../images/微信图片_20190515090842.jpg'></image>
-    <image src='../../images/微信图片_20190515090842.jpg'></image>
-     <image src='../../images/微信图片_20190515090842.jpg'></image>
+<view class='mask-laye'>
+  这高层
 </view>
 <view class='footer'>
   <view class='footer-comment'>
@@ -40,8 +44,5 @@
     <view class='minmun'>最低加价：100</view>
     <view class='add'>+</view>
     <view class='buy-now'>立即购买</view>
-  </view>
-  <view>
-    
   </view>
 </view>

@@ -1,0 +1,22 @@
+<view class='remind-img'>
+  <image src='../../images/微信图片_20190515090842.jpg'></image>
+  <view class='now-auction'>
+    <view class='auction'>现场拍品：11件</view>
+    <view>结拍时间：21:00</view>
+  </view>
+</view>
+<view class='remind-list'>
+  <view class='list'>
+    <view class='list-img'>
+    <image src='../../images/微信图片_20190515090842.jpg'></image>
+  </view>
+  <view class='list-content'>
+    <view>石之美如玉 玉之美在石韵【保证金】</view>
+    <view class='list-user'>匠人：范范</view>
+    <view class='list-user'>当前价:
+      <view class='list-money'>￥288</view>
+    </view>
+    <view class='list-time'>结拍时间：今日21：00起</view>
+  </view>
+  </view>
+</view>

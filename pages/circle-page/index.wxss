@@ -67,10 +67,10 @@
 }
 .advance-shop .advance-img{
   background-color: #fff;
-  position: relative;
 }
 .advance-shop image{
   width: 100%;
+  
 }
 .advance-shop .advance-content{
   background-color:#fff;
@@ -80,23 +80,4 @@
 .advance-content .finish{
   font-size: 14px;
   color:#aaa;
-}
-.proceed{
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-  color:#fff;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 10px 5px;
-  box-sizing: border-box;
-  background-color:rgba(0,0,0,.6)
-}
-.proceed view:nth-child(1){
-  flex: 2;
-}
-.proceed view:nth-child(2){
-  flex: 1;
-  text-align: center;
 }

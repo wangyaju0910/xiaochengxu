@@ -1,0 +1,55 @@
+<view class='username'>
+  <view class='user-log'>
+    <view class='username-img'>
+      <image src='../../images/微信图片_20190515090842.jpg'></image>
+    </view>
+    <view class='username-user'>范范SOSO</view>
+  </view>
+  <view class='sign-in'>
+    <view class='tag-sign'>签到</view>
+  </view>
+</view>
+<view class='my-order'>
+  <view class='order-nav'>
+    <view>我的订单</view>  
+    <view class='all-order'>全部订单 ></view>
+  </view>
+  <view class='order-list'>
+    <view class='load-pay'>代付款</view>
+    <view>代发货</view>
+    <view>代收货</view>
+    <view>代评价</view>
+  </view>
+</view>
+<view class='order-set'>
+    <view class='set-list'>
+      <view class='set-nav'>出价记录</view>
+      <view class='icon'>></view>
+    </view>
+    <view class='set-list'>
+      <view class='set-nav'>退款</view>
+      <view class='icon'>></view>
+    </view>
+    <view class='set-list'>
+      <view class='set-nav'>我的关注</view>
+      <view class='icon'>></view>
+    </view>
+    <view class='set-list'>
+      <view class='set-nav'>收货地址</view>
+      <view class='icon'>></view>
+    </view>
+    <view class='set-list'>
+      <view class='set-nav'>我的保证金</view>
+      <view class='icon'>></view>
+    </view>
+</view>
+<view class='order-set'>
+  <view class='set-list'>
+      <view class='set-nav'>客服与帮助</view>
+      <view class='icon'>></view>
+  </view>
+  <view class='set-list'>
+      <view class='set-nav'>意见反馈</view>
+      <view class='icon'>></view>
+  </view>
+</view>

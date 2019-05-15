@@ -1,0 +1,120 @@
+
+.take-address{
+  font-size: 14px;
+  color:#999;
+  padding-top:20px;
+  padding-left: 10px;
+  background-color: #fff;
+  border-top: 1px solid #999;
+}
+.take-address .user-address{
+  float: left;
+  margin-bottom: 20px;
+}
+.take-address .tel{
+  float: right;
+}
+.go-address{
+  float: right;
+  font-size: 40px;
+  margin-top: -10px;
+}
+.myOrder-list{
+  background-color:#f5f5f5;
+  padding: 5px 0;
+}
+.myOrder-list .list-nav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.list-detail{
+  font-size: 14px;
+  background-color: #fff;
+  display: flex;
+  padding-bottom: 10px;
+}
+.list-detail .detail-img{
+  width: 100px;
+  height: 100px;
+  flex: 1;
+  margin-left: 20px;
+}
+.detail-img image{
+  width: 100%;
+  height: 100%;
+}
+.detail-introduce{
+  flex: 2;
+  margin-left: 10px;
+}
+.detail-introduce .introduce-money{
+  color:#d62727;
+  margin-top: 40px;
+}
+.introduce-money .add-num{
+  float: right;
+  border:1px solid #999;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.introduce-money .num{
+  width: 14px;
+  text-align: center;
+  color:#999;
+}
+.introduce-money .num:nth-child(2){
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+}
+.detail-introduce .introduce-money .number{
+  font-size: 18px;
+  display: inline-block;
+}
+.leave-message .user-message{
+  height: 50px;
+  width: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  color:#999;
+  line-height: 50px;
+  padding-left: 30px;
+}
+.submit-order{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+}
+.submit-order .deal-with{
+  flex: 1;
+  background-color: #fff;
+  text-align: right;
+  line-height: 45px;
+  padding-right: 10px;
+}
+.deal-with .money{
+  display: inline-block;
+  color:#d62727;
+}
+.submit-order .submit{
+  width: 100px;
+  background-color: #d62727;
+  color:#fff;
+  text-align: center;
+  padding: 10px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+Page{
+  background-color:#f5f5f5;
+}

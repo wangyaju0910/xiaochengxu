@@ -1,0 +1,29 @@
+
+<view class='myOrder-list'>
+  <view class='list-nav'>
+    <view>范范古玩店</view>
+  </view>
+  <view class='list-detail'>
+    <view class='detail-img'>
+      <image src='../../images/微信图片_20190515090842.jpg'></image>
+    </view>
+    <view class='detail-introduce'>
+      <view>石之美为玉 玉之美在石韵石之美【保证金】石之美为玉 玉之美在石韵</view>
+      <view class='introduce-money'>￥
+        <view class='number'>288</view>
+        <view class='num'>X1</view>
+      </view>
+    </view>
+  </view>
+</view> 
+<view class="evaluate">
+  <textarea>
+    宝贝满足您的期待吗？说说它的优点和美中不足吧..
+  </textarea>
+  <view class='add-pic'>
+    <view class='pic'>添加图片</view>
+  </view>
+</view>
+<view class='submit'>
+  提交
+</view>

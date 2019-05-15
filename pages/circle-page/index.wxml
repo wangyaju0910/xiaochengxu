@@ -5,8 +5,7 @@
 <view class='advance'>
   <view class='auction-notice'>拍卖预告</view>
   <view class='theme'>添龙斋—寿山石拍卖专场</view>
-  <view class='time'>21:00
-    <view class='data'>2019/04/26</view>
+  <view class='time'>21:00<view class='data'>2019/04/26</view>
   </view>
   <view class='user'>
     <image src='../../images/微信图片_20190515090842.jpg'></image>
@@ -14,16 +13,12 @@
   </view>
 </view>
 <view class='advance-shop'>
-  <!-- img -->
+<!-- img -->
   <view class='advance-img'>
     <image src='../../images/微信图片_20190515090842.jpg'></image>
-    <view class='proceed'>
-      <view class='proceed-now'>拍卖进行中</view>
-      <view>28次出价</view>
-    </view>
   </view>
   <view class='advance-content'>
     <p>石之美为玉 玉之美在石韵【保证金】</p>
-    <view class='finish'>结拍时间：明日21:00</view>
+    <view class='finish'>结拍时间：明日21:00</view>  
   </view>
 </view>
