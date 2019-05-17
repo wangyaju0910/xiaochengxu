@@ -2,11 +2,9 @@ Page({
   data:{
 
   },
-  // onReady:function(){
-  //   tapShop({
-  //     wx:navigateTo({
-  //       url: 'details-page/index',
-  //     })
-  //   })
-  // }
+  onShow:function(){
+    wx.setNavigationBarColor({
+      frontColor: '#999'
+    })
+  }
 })

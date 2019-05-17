@@ -12,4 +12,8 @@
     <view class='day'>累计积分</view>
   </view>
 </view>
-<view class='calender'>我要签到</view>
+<view class='rili-box'>
+  <view class='rili'>
+    <calendar calendar="{{calendar}}" gesture="{{gesture}}"></calendar>
+  </view>
+</view>

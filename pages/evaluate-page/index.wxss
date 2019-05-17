@@ -67,7 +67,7 @@
 .evaluate .add-pic{
   width: 100px;
   height: 100px;
-  border:1px solid #ccc;
+  border:1px solid #e2e2e2;
   position: absolute;
   bottom: 20px;
   left: 40px;

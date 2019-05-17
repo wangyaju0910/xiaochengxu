@@ -17,14 +17,31 @@ Page{
   font-size: 12px;
   margin-top: 20px;
 }
+
+.rili calendar{
+  background-color: #fff;
+}
+.rili{
+  width: 90%;
+  margin-top:-90px;
+  margin-left: 20px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
 .calender{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 14px;
-  height: 30px;
-  width: 95%;
+  height: 35px;
+  width: 90%;
   background-color: #d42825;
   color:#fff;
-  margin: 10px auto;
-  border-radius: 10px;
-  text-align: center;
-  line-height: 30px;
+  margin: 20px auto;
+  border-radius: 20px;
 }
