@@ -1,21 +1,26 @@
 <view class='myOrder-nav'>
   <view>全部</view>
-  <view class='wait-pay'>待付款</view>
+  <view class='wait-pay'>待付款
+    <view class='pay-num'></view>
+  </view>
   <view>待发货</view>
   <view>待收货</view>
   <view>待评价</view>
 </view>
 <view class='myOrder-list'>
   <view class='list-nav'>
+    <view class='dainpu'>
+      <image src='../../images/dainpu.png'></image>
+    </view>
     <view>范范古玩店</view>
     <view class='wait-payment'>待付款</view>
   </view>
   <view class='list-detail'>
     <view class='detail-img'>
-      <image src='../../images/微信图片_20190515090842.jpg'></image>
+      <image src='../../images/xiaotupian.png'></image>
     </view>
     <view class='detail-introduce'>
-      <view>石之美为玉 玉之美在石韵石之美【保证金】石之美为玉 玉之美在石韵</view>
+      <view class='text'>石之美为玉 玉之美在石韵石之美【保证金】石之美为玉 玉之美在石韵</view>
       <view class='introduce-money'>￥
         <view class='number'>288</view>
         <view class='num'>X1</view>
@@ -25,7 +30,7 @@
   <view class='aggregate clearfix'>
     <view class='aggregate-all'>
       共1件 合计：
-    <view class='aggregate-money'>￥288</view>
+      <view class='aggregate-money'>￥288</view>
     </view>
   </view>
   <view class="pay clearfix">

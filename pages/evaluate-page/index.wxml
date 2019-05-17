@@ -1,6 +1,9 @@
 
 <view class='myOrder-list'>
   <view class='list-nav'>
+   <view class='dainpu'>
+      <image src='../../images/dainpu.png'></image>
+    </view>
     <view>范范古玩店</view>
   </view>
   <view class='list-detail'>
@@ -21,6 +24,9 @@
     宝贝满足您的期待吗？说说它的优点和美中不足吧..
   </textarea>
   <view class='add-pic'>
+  <view class='xiangji'>
+    <image src='../../images/xiangji.png'></image>
+  </view>
     <view class='pic'>添加图片</view>
   </view>
 </view>

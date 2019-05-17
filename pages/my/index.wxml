@@ -6,6 +6,9 @@
     <view class='username-user'>范范SOSO</view>
   </view>
   <view class='sign-in'>
+    <view class='rili'>
+      <image src='../../images/rili.png'></image>
+    </view>
     <view class='tag-sign'>签到</view>
   </view>
 </view>
@@ -15,10 +18,30 @@
     <view class='all-order'>全部订单 ></view>
   </view>
   <view class='order-list'>
-    <view class='load-pay'>代付款</view>
-    <view>代发货</view>
-    <view>代收货</view>
-    <view>代评价</view>
+    <view class='load-pay'>
+      <view class='images'>
+        <image src='../../images/zhifu.png'></image>
+      </view>
+      <view class='fukaun'>待付款</view>
+    </view>
+    <view class='load-pay'>
+      <view class='images'>
+        <image src='../../images/fahuo.png'></image>
+      </view>
+      <view>代发货</view>
+    </view>
+    <view class='load-pay'>
+      <view class='images'>
+        <image src='../../images/shouhuo.png'></image>
+      </view>
+      <view>代收货</view>
+    </view>
+    <view class='load-pay'>
+      <view class='images'>
+        <image src='../../images/pingjia.png'></image>
+      </view>
+      <view>代评价</view>
+    </view>
   </view>
 </view>
 <view class='order-set'>

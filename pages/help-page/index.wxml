@@ -1,0 +1,39 @@
+
+<view class='order-set'>
+    <view class='set-list'>
+      <view class='set-nav'>售前问题</view>
+      <view class='icon'>></view>
+    </view>
+    <view class='set-list'>
+      <view class='set-nav'>售中问题</view>
+      <view class='icon'>></view>
+    </view>
+    <view class='set-list'>
+      <view class='set-nav'>售后问题</view>
+      <view class='icon'>></view>
+    </view>
+    <view class='set-list'>
+      <view class='set-nav'>拍卖问题</view>
+      <view class='icon'>></view>
+    </view>
+    <view class='last-list'>
+      <view class='last-nav'>怎么参与拍卖</view>
+      <view class='last-nav'>买完怎么付款</view>
+      <view class='last-nav'>拍品收到后可以退款吗</view>
+      <view class='last-nav'>能否不付款</view>
+    </view>
+</view>
+<view class='help-now'>
+  <view class='help-nav'>
+    <view class='help-img'>
+      <image src='../../images/kefu.png'></image>
+    </view>
+    在线客服    
+  </view>
+  <view class='help-nav'>
+    <view class='help-img'>
+      <image src='../../images/dianhua.png'></image>
+    </view>
+    客服电话    
+  </view>
+</view>

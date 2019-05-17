@@ -1,0 +1,27 @@
+<view class='write-shipping clearfix'>
+  <view class='shipping-user'>收货人：范范</view>
+  <view class='shipping-tel'>12345678910</view>
+  <view class='shipping-address'>此处填写详情地址此处填写详情地址此处填写详情地址此</view>
+</view>
+<view class='defulte'>
+  <view class='defulte-left'>
+    <view class='img'>
+      <image src='../../images/duihao.png'></image>
+    </view>
+    <view class='left-content'>默认地址</view>
+  </view>
+  <view class='defulte-left'>
+    <view class='right-bainji'>
+      <view class='img'>
+        <image src='../../images/bainji1.png'></image>
+      </view>
+      <view class='bianji-content'>编辑</view>
+    </view>
+    <view class='right-bainji'>
+      <view class='img'>
+        <image src='../../images/shanchu1.png'></image>
+      </view>
+      <view>删除</view>
+    </view>
+  </view>
+</view>

@@ -34,7 +34,7 @@
     </view>
 </view>
 <view class='mask-laye'>
-  这高层
+  <!-- 遮罩层 -->
 </view>
 <view class='footer'>
   <view class='footer-comment'>

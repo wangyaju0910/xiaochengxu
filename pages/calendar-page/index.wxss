@@ -1,0 +1,30 @@
+Page{
+  background-color: #f5f5f5;
+}
+.calendar-day{
+  display: flex;
+  height: 200px;
+  background-color:#d42825;
+  color:#fff;
+}
+.calendar-day>view{
+  flex: 1;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.calendar-day .day{
+  font-size: 12px;
+  margin-top: 20px;
+}
+.calender{
+  font-size: 14px;
+  height: 30px;
+  width: 95%;
+  background-color: #d42825;
+  color:#fff;
+  margin: 10px auto;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 30px;
+}

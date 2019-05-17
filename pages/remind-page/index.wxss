@@ -1,53 +1,89 @@
-.remind-img{
+Page{
+  background-color: #f5f5f5;
+}
+.remind-img {
   position: relative;
 }
-.remind-img image{
+
+.remind-img image {
   width: 100%;
+  height: 180px;
 }
-.now-auction{
+
+.now-auction {
   position: absolute;
   bottom: 5px;
   left: 0;
-  color:#fff;
+  color: #fff;
   width: 100%;
   text-align: center;
   font-size: 14px;
   padding: 10px 0;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
-.now-auction view:nth-child(1){
+
+.now-auction view:nth-child(1) {
   float: left;
   width: 49%;
   border-right: 1px solid #fff;
 }
-.now-auction view:nth-child(2){
+
+.now-auction view:nth-child(2) {
   float: right;
   width: 50%;
 }
-.remind-list .list{
+
+.remind-list .list {
   display: flex;
   justify-content: space-between;
+  background-color: #fff;
+  margin-top: 5px;
 }
-.remind-list .list-img{
+
+.remind-list .list-img {
   flex: 1;
   margin-left: 5px;
+  position: relative;
+  margin: 5px;
 }
-.remind-list .list-img image{
+.list-img .many{
+  position: absolute;
+  bottom:0;
+  right: 0; 
+  color:#fff;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+.remind-list .list-img image {
   width: 100%;
   height: 100%;
 }
-.remind-list .list-content{
+
+.remind-list .list-content {
   flex: 2;
   margin: 5px;
   font-size: 12px;
 }
-.list-content .list-user{
-  color:#999;
+
+.list-content .list-user {
+  color: #999;
   margin: 5px 0;
 }
 
-.list-content .list-money{
+.list-content .list-money {
   display: inline-block;
-  color:red;
+  color: red;
   margin: 5px 0;
+}
+.buy-guarantee{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height:40px;
+  background-color:#d62727;
+  color:#fff;
+  text-align: center;
+  line-height: 40px;
 }

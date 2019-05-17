@@ -1,0 +1,25 @@
+<view class='opinion'>
+  <view class='opinion-nav'>
+    <view class='opinion-img'>
+      <image src='../../images/kefu.png'></image>
+    </view>
+    <view>如有紧急需要可联系在线客服</view>
+  </view>
+  <view class='kefu'>联系客服</view>
+</view>
+<view class='question'>
+  <textarea>
+    <view class='question-content'>您的问题或建议：</view>
+  </textarea>
+  <view class='question-pic'>
+    <view class='upload-pic'>
+      <image src='../../images/xiangji.png'></image>
+    </view>
+    <view class='add-pic'>添加图片</view>
+  </view>
+</view>
+<view class='tel'>
+<view>手机号码：</view>
+  <input placeholder='请输入您的手机号码，方便后期联系您'></input>
+</view>
+<view class='baocun'>保存</view>

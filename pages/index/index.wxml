@@ -1,18 +1,26 @@
 <!--index.wxml-->
-<view class='inputBox'>
-  <view class='input'>搜索</view>
-</view>
-<view class='advance'>
-  <view class='auction-notice'>拍卖预告</view>
-  <view class='theme'>添龙斋—寿山石拍卖专场</view>
-  <view class='time'>21:00
-    <view class='data'>2019/04/26</view>
-  </view>
-  <view class='user'>
-    <view class='user-img'>
-       <image src='../../images/微信图片_20190515090842.jpg'></image>
+<view class='advance-bg'>
+  <view class='inputBox'>
+    <view class='input-img'>
+      <image src='../../images/sousou.png'></image>
     </view>
-    <view class='user-name'>添龙斋</view>
+    <view class='input'>
+      搜索
+    </view>
+  </view>
+
+  <view class='advance'>
+    <view class='auction-notice'>拍卖预告</view>
+    <view class='theme'>添龙斋—寿山石拍卖专场</view>
+    <view class='time'>21:00
+      <view class='data'>2019/04/26</view>
+    </view>
+    <view class='user'>
+      <view class='user-img'>
+        <image src='../../images/微信图片_20190515090842.jpg'></image>
+      </view>
+      <view class='user-name'>添龙斋</view>
+    </view>
   </view>
 </view>
 <view class='advance-shop'>
@@ -20,7 +28,11 @@
     <image src='../../images/微信图片_20190515090842.jpg'></image>
     <view class='proceed'>
       <view class='proceed-now'>拍卖进行中</view>
-      <view>28次出价</view>
+      <view class='xinImg'>
+        <view class='xin'>
+          <image src='../../images/hongxin2.png'></image>
+        </view>
+        28次出价</view>
     </view>
   </view>
   <view class='advance-content'>

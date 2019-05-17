@@ -1,14 +1,20 @@
 <view class='take-address clearfix'>
+  <view class='dizhi'>
+    <image src='../../images/dizhi.png'></image>
+  </view>
   <view class='user-address'>
     <view>收货人：范范SOSO
       <view class='tel'>12345678910</view>
     </view>
-    <view>收货地址：广州天河区车陂街道联合社区2栋</view>
+    <view class='shouhuo'>收货地址：广州天河区车陂街道联合社区2栋</view>
   </view>
   <view class='go-address'>></view>
 </view>
 <view class='myOrder-list'>
   <view class='list-nav'>
+    <view class='dainpu'>
+      <image src='../../images/dainpu.png'></image>
+    </view>
     <view>范范古玩店</view>
   </view>
   <view class='list-detail'>
@@ -36,4 +42,4 @@
     <view class='money'>￥288</view>
   </view>
   <view class='submit'>提交订单</view>
-</view> 
+</view>

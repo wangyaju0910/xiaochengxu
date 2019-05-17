@@ -9,7 +9,16 @@
     "pages/my-orders/index",
     "pages/payment-page/index",
     "pages/confirm-page/index",
-    "pages/evaluate-page/index"
+    "pages/evaluate-page/index",
+    "pages/record-page/index",
+    "pages/refund-page/index",
+    "pages/attention-page/index",
+    "pages/guarantee-page/index",
+    "pages/shipping-page/index",
+    "pages/write-shipping/index",
+    "pages/help-page/index",
+    "pages/opinion-page/index",
+    "pages/calendar-page/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,18 +29,24 @@
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "color": "#999",
-    "selectedColor": "#000",
+    "selectedColor": "#999",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "iconPath":"images/paimai.png",
+        "selectedIconPath":"images/paimai.png",
+        "text": "拍卖"
       },
       {
-        "pagePath": "pages/circle-page/index",
+        "pagePath":"pages/circle-page/index",
+        "iconPath": "images/quanzi.png",
+        "selectedIconPath": "images/quanzi.png",
         "text": "圈子"
       },
       {
         "pagePath": "pages/my/index",
+        "iconPath": "images/wode.png",
+        "selectedIconPath": "images/wode.png",
         "text": "我的"
       }
     ]

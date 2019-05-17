@@ -1,0 +1,15 @@
+<view class='calendar-day'>
+  <view class='day-num'>
+    <view>5</view>
+    <view class='day'>连续签到/天</view>
+  </view>
+  <view class='day-num'>
+    <view>20</view>
+    <view class='day'>累计签到/天</view>
+  </view>
+  <view class='day-num'>
+    <view>1000</view>
+    <view class='day'>累计积分</view>
+  </view>
+</view>
+<view class='calender'>我要签到</view>

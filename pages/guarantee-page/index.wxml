@@ -1,0 +1,18 @@
+<view class='my-guarantee'>
+  <view class='guarantee'>
+    <view class='usable-guarantee'>
+      <view>可用免保金额(元)</view>
+      <view class='money'>0.00</view>
+      <view>免保总金额(元)
+        <view class='all-money'>0.00</view>
+      </view>
+    </view>
+    <view class='usable-guarantee'>
+      <view>违约扣除免保金额(元)</view>
+      <view class='money'>0.00</view>
+      <view>冻结中免保金额(元)
+        <view class='all-money'>0.00</view>
+      </view>
+    </view>
+  </view>
+</view>

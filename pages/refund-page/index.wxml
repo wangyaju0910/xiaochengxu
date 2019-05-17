@@ -1,0 +1,45 @@
+<view class='myOrder-list'>
+  <view class='list-detail'>
+    <view class='detail-img'>
+      <image src='../../images/微信图片_20190515090842.jpg'></image>
+    </view>
+    <view class='detail-introduce'>
+      <view class='text'>石之美为玉 玉之美在石韵石之美【保证金】石之美为玉 玉之美在石韵</view>
+      <view class='introduce-money'>￥
+        <view class='number'>288</view>
+        <view class='num'>X1</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='order-set'>
+  <view class='set-list'>
+    <view class='set-nav'>退款原因
+      <view class='set-money'>多拍</view>
+    </view>
+    <view class='icon'>></view>
+  </view>
+  <view class='set-list'>
+    <view class='set-nav'>退款金额
+      <view class='set-qian'>￥288</view>
+    </view>
+  </view>
+  <view class='explain clearfix'>
+    <view class='explain-money'>退款说明</view>
+    <input placeholder='选填'></input>
+  </view>
+</view>
+<view class='more'>上传凭证(最多三张图片)</view>
+<view class="evaluate">
+  <textarea>
+  </textarea>
+  <view class='add-pic'>
+    <view class='xiangji'>
+      <image src='../../images/xiangji.png'></image>
+    </view>
+    <view class='pic'>添加图片</view>
+  </view>
+</view>
+<view class='submit'>
+  保存
+</view>

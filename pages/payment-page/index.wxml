@@ -1,18 +1,31 @@
 <view class='obligation'>
-  <view>待付款</view>
-  <view>订单将保留到2019-04-20 15:51</view>
+  <view class='obligation-img'>
+    <image src='../../images/shijian.png'></image>
+  </view>
+  <view class='obligation-content'>
+    <view>待付款</view>
+    <view>订单将保留到2019-04-20 15:51</view>
+  </view>
 </view>
 <view class='take-address clearfix'>
   <view class='user-address'>
-    <view>收货人：范范SOSO
-      <view class='tel'>12345678910</view>
+    <view class='userImg'>
+      <image src='../../images/dizhi.png'></image>
     </view>
-    <view>收货地址：广州天河区车陂街道联合社区2栋</view>
+    <view class='fanfan'>
+      <view>收货人：范范SOSO
+        <view class='tel'>12345678910</view>
+      </view>
+      <view class='address'>收货地址：广州天河区车陂街道联合社区2栋</view>
+    </view>
   </view>
   <view class='go-address'>></view>
 </view>
 <view class='myOrder-list'>
   <view class='list-nav'>
+  <view class='nav-img'>
+    <image src='../../images/dainpu.png'></image>
+  </view>
     <view>范范古玩店</view>
   </view>
   <view class='list-detail'>
