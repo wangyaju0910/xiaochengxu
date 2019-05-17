@@ -47,6 +47,7 @@ Component({
   methods: {
     sign(){
       let nub = this.data.calendar.selectedDay[0].day;
+      // console.log(nub);
       this.setData({
         arr:nub
       })

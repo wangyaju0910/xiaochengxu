@@ -1,5 +1,19 @@
 @import './iconfont//iconfont.wxss';
 
+
+
+.my-sign{
+  width: 95%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: red;
+  text-align: center;
+  color: #fff;
+  border-radius: 40rpx;
+  margin-top: 400rpx;
+  margin-right: 19rpx;
+  margin-left: 19rpx;
+}
 .b {
   display: flex;
   background-color: #fff;
@@ -142,6 +156,7 @@
   top: 0;
 }
 
+
 /* 不可选日期 */
 .disable-day-color {
   color: #fff;
@@ -165,9 +180,17 @@
 }
 
 /* 日期选中 */
+.day-choosed-color {
+  color: #000;
+  border: 1px solid red;
+}
+
+.day-sign {
+  background-color: red;
+  color: #fff;
+}
 .day-choosed-bg {
   border:1px solid #d42825;
-  color: #000;
   transition: all 0.3s;
   animation-name: choosed;
   animation-duration: 0.5s;

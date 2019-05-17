@@ -86,4 +86,5 @@ Page{
   color:#fff;
   text-align: center;
   line-height: 40px;
+  font-size: 14px;
 }
